@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.logo h3{
+    color: brown;
+}
+.logo h3 span{
+    color: aliceblue;
+    margin-right: 5px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu ul li a:hover{
+    color: brown;
+}
